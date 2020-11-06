@@ -4,7 +4,7 @@ RUN apt-get update \
   && apt-get install -y openssh-client git build-essential \
   libpng16-16 libpng-dev libjpeg62-turbo libjpeg62-turbo-dev libwebp6 \
   libwebp-dev libgomp1 libwebpmux3 libwebpdemux2 ghostscript \
-  librsvg2-bin librsvg2-dev && \
+  librsvg2-bin librsvg2-dev \
   && \
   # build ImageMagick
   git clone https://github.com/ImageMagick/ImageMagick.git && \
